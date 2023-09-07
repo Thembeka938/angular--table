@@ -1,0 +1,37 @@
+.registration-container {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.registration-form {
+  width: 300px; 
+  margin: 0 auto; 
+}
+
+h2, button {
+  color: blue;
+  font-size: 24px;
+}
+
+p{
+  color: red;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+
+.mat-form-field {
+  flex: 1; 
+  margin-right: 10px; 
+}
+
+.full-width {
+  width: 100%;
+}
